@@ -8,7 +8,26 @@ body {
   background-color: #C1B5AD;
 }
 
+#navbar {
+  width: auto;
+}
+
+#main {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 #map {
-  height: 100vh;
-  width: 100vw
+  height: 75vh;
+  width: 75vw
+}
+
+#menus {
+  /* display: flex; */
+  width: 10em;
+  z-index: 2;
+  flex-direction: column;
+  align-items: flex-end;
 }
